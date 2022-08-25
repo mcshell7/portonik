@@ -38,6 +38,17 @@ function render_empty_content()
 add_action('theme/index/content/none', 'porton\App\Structure\render_empty_content');
 
 /**
+ * Renders empty post content where there is no posts.
+ *
+ * @see resources/templates/home.tpl.php
+ */
+function render_home_frontscreen()
+{
+    template('partials/home/frontscreen');
+}
+add_action('theme/home/frontscreen', 'porton\App\Structure\render_home_frontscreen');
+
+/**
  * Renders post contents by its formats.
  *
  * @see resources/templates/single.tpl.php

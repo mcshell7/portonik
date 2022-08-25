@@ -10,11 +10,6 @@
   box-sizing: border-box;
 }
 
-body {
-  font-family: sans-serif;
-  line-height: 1.5;
-}
-
 .app {
   max-width: 960px;
   margin: 0 auto;
@@ -27,12 +22,6 @@ body {
   display: flex;
 
   & > * + * { margin-left: 3em; }
-}
-
-.header {
-  padding: 3em;
-  color: $white;
-  background-color: $primary;
 }
 
 .content {
@@ -71,3 +60,16 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
+@import "vars";
+//@import "libs";
+@import "fonts";
+@import "global";
+//
+@import "components/header";
+@import "components/surf";
+//@import "components/travel";
+//
+//
+//
+//@import "media"

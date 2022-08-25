@@ -22,6 +22,9 @@ use function porton\App\asset_path;
  */
 function register_stylesheets() {
     wp_enqueue_style('app', asset_path('css/app.css'));
+    wp_enqueue_style('libs', asset_path('css/libs.css'));
+//    wp_enqueue_style('slick', asset_path('css/slick.css'));
+//    wp_enqueue_style('animate', asset_path('css/animate.css'));
 }
 add_action('wp_enqueue_scripts', 'porton\App\Http\register_stylesheets');
 
@@ -31,6 +34,7 @@ add_action('wp_enqueue_scripts', 'porton\App\Http\register_stylesheets');
  * @return void
  */
 function register_scripts() {
+//    wp_enqueue_script('libs', asset_path('js/libs.js'), null, true);
     wp_enqueue_script('app', asset_path('js/app.js'), ['jquery'], null, true);
 }
 add_action('wp_enqueue_scripts', 'porton\App\Http\register_scripts');

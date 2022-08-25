@@ -26,3 +26,5 @@ function register_navigation_areas()
     ]);
 }
 add_action('after_setup_theme', 'porton\App\Structure\register_navigation_areas');
+
+

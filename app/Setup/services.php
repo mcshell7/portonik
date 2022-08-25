@@ -39,3 +39,6 @@ function bind_books_service()
     });
 }
 add_action('init', 'porton\App\Setup\bind_books_service');
+
+
+

@@ -1,0 +1,85 @@
+.travel{
+  //background-image: url('../images/coctail.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: auto;
+}
+.travel__slider{
+
+}
+
+.travel-slider{
+  &__head{
+    background-repeat: no-repeat;
+    background-position: top left;
+    min-height: 780px;
+    box-shadow:
+      inset 0 0 150px #171919,
+      inset 0 0 150px #171919,
+      inset 0 0 150px #171919;
+    // padding-bottom: 200px;
+  }
+  &__descr{
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right center;
+    min-height: 320px;
+    padding: 160px 0 0 132px;
+    // margin-top: -320px;
+    margin-top: -250px;
+    img{
+      padding-left: 24px;
+    }
+  }
+  &__subtitle{
+    text-align: right;
+    padding-top: 92px;
+    padding-right: 80px;
+  }
+
+}
+.travel-btn{
+  text-align: center;
+}
+.travel-slider__info{
+  display: flex;
+  justify-content: space-around;
+  &-subtitle{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 8px;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 97px;
+    left: -97px;
+    width: 200px;
+    height: 0;
+    white-space: nowrap;
+    text-align: right;
+    opacity: 0.5;
+  }
+
+  &-title{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 36px;
+    padding-left: 40px;
+    margin-bottom: auto;
+    white-space: nowrap;
+    span{
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1;
+      text-align: right;
+      letter-spacing: 5.25px;
+      opacity: 0.75;
+      display: block;
+    }
+  }
+  &-item{
+    min-height: 200px;
+    margin-bottom: 66px;
+    position: relative;
+  }
+}

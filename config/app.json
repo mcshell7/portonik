@@ -1,5 +1,11 @@
 {
   "assets": {
+    "libs": [
+      "./resources/assets/sass/libs.scss",
+      "./node_modules/normalize.css/normalize.scss",
+      "./node_modules/slick-carousel/slick/slick.scss",
+      "./node_modules/animate.css/animate.scss"
+    ],
     "app": [
       "./resources/assets/js/app.js",
       "./resources/assets/sass/app.scss"

@@ -23,3 +23,4 @@ function example_action()
     //
 }
 add_filter('excerpt_length', 'porton\App\Setup\example_action');
+
